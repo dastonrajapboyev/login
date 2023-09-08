@@ -10,6 +10,10 @@ Container.Card = styled.div`
   flex-direction: column;
   margin-top: 80px;
   background-color: #fff;
+  @media (max-width: 768px) {
+    padding: 20px;
+    margin-top: 40px;
+  }
 `;
 Container.Title = styled.h1``;
 Container.EmailTitle = styled.h3`
@@ -21,6 +25,9 @@ Container.Email = styled.input`
   border-radius: 5px;
   border: 1px solid #181818;
   outline: none;
+  @media (max-width: 768px){
+    width: 250px;
+  }
 `;
 Container.PasswordTitle = styled.h3`
   margin-top: 30px;
@@ -31,6 +38,9 @@ Container.Password = styled.input`
   border-radius: 5px;
   border: 1px solid #181818;
   outline: none;
+  @media (max-width: 768px){
+    width: 250px;
+  }
 `;
 
 Container.Button = styled.button`
@@ -41,12 +51,18 @@ Container.Button = styled.button`
   border-radius: 5px;
   margin-top: 30px;
   padding: 10px;
+  @media (max-width: 768px){
+    width: 250PX;
+  }
 `;
 
 Container.Line = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
+  @media (max-width: 768px){
+    width: 250PX;
+  }
 `;
 Container.LeftLine = styled.span`
   height: 1px;
