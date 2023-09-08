@@ -1,14 +1,11 @@
 import React from "react";
 import { Container } from "./style";
-import { useState } from "react";
 
 import Google from "../../assets/icons/Google.png";
 import Facebook from "../../assets/icons/Facebook.png";
 import In from "../../assets/icons/In.png";
 
 function Login(props) {
-
-  // const { toggleSignUp } = props;
 
   return (
     <Container>

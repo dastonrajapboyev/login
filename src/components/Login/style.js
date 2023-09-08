@@ -35,22 +35,20 @@ Container.Password = styled.input`
 `;
 
 Container.CheckSection = styled.div`
-display: flex;
-gap: 10px;
-margin-top: 10px;
-font-size: 18px;
-`
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+`;
 
 Container.Checkbox = styled.input`
-color: #e53f71;
-align-items: start;
-`
-Container.CheckText = styled.p`
-
-`
+  color: #e53f71;
+  align-items: start;
+`;
+Container.CheckText = styled.p``;
 
 Container.Button = styled.button`
-width: 300px;
+  width: 300px;
   background-color: #e53f71;
   border: none;
   color: #fff;
@@ -60,9 +58,9 @@ width: 300px;
 `;
 
 Container.Forgot = styled.p`
-margin: 10px 0 0 180px;
-font-size: 16px;
-`
+  margin: 10px 0 0 180px;
+  font-size: 16px;
+`;
 
 Container.Line = styled.div`
   display: flex;
@@ -88,31 +86,32 @@ Container.RightLine = styled.span`
 `;
 
 Container.Social = styled.div`
-margin-top: 25px;
-display: flex;
-justify-content: center;
-gap: 30px;
-`
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+`;
 Container.GoogleIcon = styled.img`
-width: 40px;
-`
+  width: 40px;
+`;
 Container.FacebookIcon = styled.img`
-width: 40px;
-`
+  width: 40px;
+`;
 Container.InIcon = styled.img`
-width: 40px;
-`
+  width: 40px;
+`;
 Container.LinkSection = styled.div`
-display: flex;
-justify-content: center;
-gap: 10px;
-margin-top: 24px;
-`
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+`;
 Container.LinkText = styled.p`
-font-size: 16px;
-`
+  font-size: 16px;
+`;
 
 Container.Link = styled.h3`
-text-decoration: underline;
-`
+  text-decoration: underline;
+  cursor: pointer;
+`;
 export { Container };

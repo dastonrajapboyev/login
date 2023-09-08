@@ -1,11 +1,10 @@
-// import styled from 'styled-components'
 import styled from "styled-components";
 
 const Container = styled.div`
   height: 100vh;
 `;
 Container.Card = styled.div`
-  padding: 60px;
+  padding: 40px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -35,6 +34,7 @@ Container.Password = styled.input`
 `;
 
 Container.Button = styled.button`
+  width: 300px;
   background-color: #e53f71;
   border: none;
   color: #fff;
@@ -67,31 +67,32 @@ Container.RightLine = styled.span`
 `;
 
 Container.Social = styled.div`
-margin-top: 25px;
-display: flex;
-justify-content: center;
-gap: 30px;
-`
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+`;
 Container.GoogleIcon = styled.img`
-width: 40px;
-`
+  width: 40px;
+`;
 Container.FacebookIcon = styled.img`
-width: 40px;
-`
+  width: 40px;
+`;
 Container.InIcon = styled.img`
-width: 40px;
-`
+  width: 40px;
+`;
 Container.LinkSection = styled.div`
-display: flex;
-justify-content: center;
-gap: 10px;
-margin-top: 24px;
-`
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+`;
 Container.LinkText = styled.p`
-font-size: 16px;
-`
+  font-size: 16px;
+`;
 
 Container.Link = styled.h3`
-text-decoration: underline;
-`
+  text-decoration: underline;
+  cursor: pointer;
+`;
 export { Container };
